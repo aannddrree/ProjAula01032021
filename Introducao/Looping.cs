@@ -19,13 +19,21 @@ namespace Introducao
                 Console.WriteLine(i);
                 i++;
             }
-
             Console.WriteLine("Ex2 - For");
             for (int j = 0; j <= 10; j++)
             {
                 Console.WriteLine(j);
             }
 
+            Console.WriteLine("Ex3 - DoWhile");
+
+            i = 2;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            } while (i > 10);
+            
             Console.ReadKey();
         }
     }
